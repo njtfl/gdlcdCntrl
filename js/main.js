@@ -231,10 +231,10 @@ async function reConnect() {
 // 驱动编号到画布尺寸的映射
 const driverSizeMap = {
   '01': {width: 400, height: 300},   // epd0420bwr
-  '02': {width: 122, height: 250},   // epd0213bwr
+  '02': {width: 128, height: 250},   // epd0213bwr
   '03': {width: 400, height: 300},   // GDT0420bw
-  '04': {width: 122, height: 250},   // HKC0213bw
-  '06': {width: 122, height: 250},   // GDT0213bw
+  '04': {width: 128, height: 250},   // HKC0213bw
+  '06': {width: 128, height: 250},   // GDT0213bw
   '07': {width: 800, height: 480},   // GDT0750bw
   '08': {width: 128, height: 296},   // epd0290bwr
 };
